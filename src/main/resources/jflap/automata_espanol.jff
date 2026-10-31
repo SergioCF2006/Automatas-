@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Autómata de Pila para Español - Generado para JFLAP -->
+<structure>
+	<type>pda</type>
+	<automaton>
+		<!-- Estados del Autómata -->
+		<state id="0" name="q0">
+			<x>100.0</x>
+			<y>180.0</y>
+			<initial/>
+		</state>
+		<state id="1" name="q1">
+			<x>320.0</x>
+			<y>180.0</y>
+		</state>
+		<state id="2" name="q2">
+			<x>540.0</x>
+			<y>180.0</y>
+			<final/>
+		</state>
+
+		<!-- Transiciones del Autómata -->
+		<!-- Transición inicial de configuración -->
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read/>
+			<pop>Z</pop>
+			<push>OZ</push>
+		</transition>
+
+		<!-- Transiciones de expansión de no terminales (Reglas de producción) -->
+		<!-- (1) O -> CLAUSULA O_PRIME -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read/>
+			<pop>O</pop>
+			<push>CLAUSULA O_PRIME</push>
+		</transition>
+		<!-- (2) O_PRIME -> CONJ CLAUSULA O_PRIME -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read/>
+			<pop>O_PRIME</pop>
+			<push>CONJ CLAUSULA O_PRIME</push>
+		</transition>
+		<!-- (3) O_PRIME -> PUNTO -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read/>
+			<pop>O_PRIME</pop>
+			<push>PUNTO</push>
+		</transition>
+		<!-- (4) CLAUSULA -> SUJETO PREDICADO -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read/>
+			<pop>CLAUSULA</pop>
+			<push>SUJETO PREDICADO</push>
+		</transition>
+		<!-- (5) SUJETO -> SN COORDINACION_SN -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read/>
+			<pop>SUJETO</pop>
+			<push>SN COORDINACION_SN</push>
+		</transition>
+		<!-- (6) COORDINACION_SN -> CONJ SN COORDINACION_SN -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read/>
+			<pop>COORDINACION_SN</pop>
+			<push>CONJ SN COORDINACION_SN</push>
+		</transition>
+		<!-- (7) COORDINACION_SN -> ε -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read/>
+			<pop>COORDINACION_SN</pop>
+			<push/>
+		</transition>
+		<!-- (8) SN -> PRON -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read/>
+			<pop>SN</pop>
+			<push>PRON</push>
+		</transition>
+		<!-- (9) SN -> GRUPO_NOMINAL -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read/>
+			<pop>SN</pop>
+			<push>GRUPO_NOMINAL</push>
+		</transition>
+		<!-- (10) GRUPO_NOMINAL -> ART SUST_COMPUESTO -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read/>
+			<pop>GRUPO_NOMINAL</pop>
+			<push>ART SUST_COMPUESTO</push>
+		</transition>
+		<!-- (11) GRUPO_NOMINAL -> SUST_COMPUESTO -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read/>
+			<pop>GRUPO_NOMINAL</pop>
+			<push>SUST_COMPUESTO</push>
+		</transition>
+		<!-- (12) SUST_COMPUESTO -> SUST MOD_SUST -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read/>
+			<pop>SUST_COMPUESTO</pop>
+			<push>SUST MOD_SUST</push>
+		</transition>
+		<!-- (13) MOD_SUST -> ADJ MOD_SUST -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read/>
+			<pop>MOD_SUST</pop>
+			<push>ADJ MOD_SUST</push>
+		</transition>
+		<!-- (14) MOD_SUST -> ε -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read/>
+			<pop>MOD_SUST</pop>
+			<push/>
+		</transition>
+		<!-- (15) SP -> PREP SN -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read/>
+			<pop>SP</pop>
+			<push>PREP SN</push>
+		</transition>
+		<!-- (16) PREDICADO -> MOD_VERB VERB COMPLEMENTOS -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read/>
+			<pop>PREDICADO</pop>
+			<push>MOD_VERB VERB COMPLEMENTOS</push>
+		</transition>
+		<!-- (17) MOD_VERB -> ADV -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read/>
+			<pop>MOD_VERB</pop>
+			<push>ADV</push>
+		</transition>
+		<!-- (18) MOD_VERB -> ε -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read/>
+			<pop>MOD_VERB</pop>
+			<push/>
+		</transition>
+		<!-- (19) COMPLEMENTOS -> COMP COMPLEMENTOS -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read/>
+			<pop>COMPLEMENTOS</pop>
+			<push>COMP COMPLEMENTOS</push>
+		</transition>
+		<!-- (20) COMPLEMENTOS -> ε -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read/>
+			<pop>COMPLEMENTOS</pop>
+			<push/>
+		</transition>
+		<!-- (21) COMP -> SP -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read/>
+			<pop>COMP</pop>
+			<push>SP</push>
+		</transition>
+		<!-- (22) COMP -> SN -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read/>
+			<pop>COMP</pop>
+			<push>SN</push>
+		</transition>
+		<!-- (23) COMP -> ADV -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read/>
+			<pop>COMP</pop>
+			<push>ADV</push>
+		</transition>
+
+		<!-- Transiciones de emparejamiento (Match) de terminales -->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read>ART</read>
+			<pop>ART</pop>
+			<push/>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read>SUST</read>
+			<pop>SUST</pop>
+			<push/>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read>PRON</read>
+			<pop>PRON</pop>
+			<push/>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read>VERB</read>
+			<pop>VERB</pop>
+			<push/>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read>ADJ</read>
+			<pop>ADJ</pop>
+			<push/>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read>ADV</read>
+			<pop>ADV</pop>
+			<push/>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read>PREP</read>
+			<pop>PREP</pop>
+			<push/>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read>CONJ</read>
+			<pop>CONJ</pop>
+			<push/>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read>PUNTO</read>
+			<pop>PUNTO</pop>
+			<push/>
+		</transition>
+
+		<!-- Transición de aceptación final al vaciarse la pila -->
+		<transition>
+			<from>1</from>
+			<to>2</to>
+			<read/>
+			<pop>Z</pop>
+			<push/>
+		</transition>
+	</automaton>
+</structure>
+

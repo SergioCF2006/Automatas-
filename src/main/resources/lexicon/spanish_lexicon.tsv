@@ -1,0 +1,642 @@
+# DICCIONARIO MORFOLÓGICO DEL ESPAÑOL
+# Formato: PALABRA \t LEMA \t CATEGORIA \t RASGOS
+# Codificación: UTF-8
+# -----------------------------------------------------------------------------
+# ARTÍCULOS Y DETERMINANTES
+el	el	ARTICULO	Género: Masc, Número: Sing, Tipo: Determinado
+la	el	ARTICULO	Género: Fem, Número: Sing, Tipo: Determinado
+los	el	ARTICULO	Género: Masc, Número: Plur, Tipo: Determinado
+las	el	ARTICULO	Género: Fem, Número: Plur, Tipo: Determinado
+un	uno	ARTICULO	Género: Masc, Número: Sing, Tipo: Indeterminado
+una	uno	ARTICULO	Género: Fem, Número: Sing, Tipo: Indeterminado
+unos	uno	ARTICULO	Género: Masc, Número: Plur, Tipo: Indeterminado
+unas	uno	ARTICULO	Género: Fem, Número: Plur, Tipo: Indeterminado
+este	este	DETERMINANTE	Género: Masc, Número: Sing, Tipo: Demostrativo
+esta	este	DETERMINANTE	Género: Fem, Número: Sing, Tipo: Demostrativo
+estos	este	DETERMINANTE	Género: Masc, Número: Plur, Tipo: Demostrativo
+estas	este	DETERMINANTE	Género: Fem, Número: Plur, Tipo: Demostrativo
+ese	ese	DETERMINANTE	Género: Masc, Número: Sing, Tipo: Demostrativo
+esa	ese	DETERMINANTE	Género: Fem, Número: Sing, Tipo: Demostrativo
+esos	ese	DETERMINANTE	Género: Masc, Número: Plur, Tipo: Demostrativo
+esas	ese	DETERMINANTE	Género: Fem, Número: Plur, Tipo: Demostrativo
+aquel	aquel	DETERMINANTE	Género: Masc, Número: Sing, Tipo: Demostrativo
+aquella	aquel	DETERMINANTE	Género: Fem, Número: Sing, Tipo: Demostrativo
+aquellos	aquel	DETERMINANTE	Género: Masc, Número: Plur, Tipo: Demostrativo
+aquellas	aquel	DETERMINANTE	Género: Fem, Número: Plur, Tipo: Demostrativo
+mi	mi	DETERMINANTE	Género: Común, Número: Sing, Tipo: Posesivo
+mis	mi	DETERMINANTE	Género: Común, Número: Plur, Tipo: Posesivo
+tu	tu	DETERMINANTE	Género: Común, Número: Sing, Tipo: Posesivo
+tus	tu	DETERMINANTE	Género: Común, Número: Plur, Tipo: Posesivo
+su	su	DETERMINANTE	Género: Común, Número: Sing, Tipo: Posesivo
+sus	su	DETERMINANTE	Género: Común, Número: Plur, Tipo: Posesivo
+nuestro	nuestro	DETERMINANTE	Género: Masc, Número: Sing, Tipo: Posesivo
+nuestra	nuestro	DETERMINANTE	Género: Fem, Número: Sing, Tipo: Posesivo
+nuestros	nuestro	DETERMINANTE	Género: Masc, Número: Plur, Tipo: Posesivo
+nuestras	nuestro	DETERMINANTE	Género: Fem, Número: Plur, Tipo: Posesivo
+cada	cada	DETERMINANTE	Género: Común, Número: Sing, Tipo: Indefinido
+todo	todo	DETERMINANTE	Género: Masc, Número: Sing, Tipo: Totalizador
+toda	todo	DETERMINANTE	Género: Fem, Número: Sing, Tipo: Totalizador
+todos	todo	DETERMINANTE	Género: Masc, Número: Plur, Tipo: Totalizador
+todas	todo	DETERMINANTE	Género: Fem, Número: Plur, Tipo: Totalizador
+mucho	mucho	DETERMINANTE	Género: Masc, Número: Sing, Tipo: Cuantificador
+mucha	mucho	DETERMINANTE	Género: Fem, Número: Sing, Tipo: Cuantificador
+muchos	mucho	DETERMINANTE	Género: Masc, Número: Plur, Tipo: Cuantificador
+muchas	mucho	DETERMINANTE	Género: Fem, Número: Plur, Tipo: Cuantificador
+poco	poco	DETERMINANTE	Género: Masc, Número: Sing, Tipo: Cuantificador
+poca	poco	DETERMINANTE	Género: Fem, Número: Sing, Tipo: Cuantificador
+pocos	poco	DETERMINANTE	Género: Masc, Número: Plur, Tipo: Cuantificador
+pocas	poco	DETERMINANTE	Género: Fem, Número: Plur, Tipo: Cuantificador
+algún	alguno	DETERMINANTE	Género: Masc, Número: Sing, Tipo: Indefinido
+alguno	alguno	DETERMINANTE	Género: Masc, Número: Sing, Tipo: Indefinido
+alguna	alguno	DETERMINANTE	Género: Fem, Número: Sing, Tipo: Indefinido
+algunos	alguno	DETERMINANTE	Género: Masc, Número: Plur, Tipo: Indefinido
+algunas	alguno	DETERMINANTE	Género: Fem, Número: Plur, Tipo: Indefinido
+ningún	ninguno	DETERMINANTE	Género: Masc, Número: Sing, Tipo: Negativo
+ninguno	ninguno	DETERMINANTE	Género: Masc, Número: Sing, Tipo: Negativo
+ninguna	ninguno	DETERMINANTE	Género: Fem, Número: Sing, Tipo: Negativo
+# -----------------------------------------------------------------------------
+# PRONOMBRES
+yo	yo	PRONOMBRE	Caso: Nominativo, Persona: 1, Número: Sing
+tú	tú	PRONOMBRE	Caso: Nominativo, Persona: 2, Número: Sing
+él	él	PRONOMBRE	Caso: Nominativo, Persona: 3, Género: Masc, Número: Sing
+ella	él	PRONOMBRE	Caso: Nominativo, Persona: 3, Género: Fem, Número: Sing
+ello	él	PRONOMBRE	Caso: Neutro, Persona: 3, Número: Sing
+usted	usted	PRONOMBRE	Caso: Formal, Persona: 2, Número: Sing
+nosotros	yo	PRONOMBRE	Caso: Nominativo, Persona: 1, Género: Masc, Número: Plur
+nosotras	yo	PRONOMBRE	Caso: Nominativo, Persona: 1, Género: Fem, Número: Plur
+vosotros	tú	PRONOMBRE	Caso: Nominativo, Persona: 2, Género: Masc, Número: Plur
+vosotras	tú	PRONOMBRE	Caso: Nominativo, Persona: 2, Género: Fem, Número: Plur
+ellos	él	PRONOMBRE	Caso: Nominativo, Persona: 3, Género: Masc, Número: Plur
+ellas	él	PRONOMBRE	Caso: Nominativo, Persona: 3, Género: Fem, Número: Plur
+ustedes	usted	PRONOMBRE	Caso: Formal, Persona: 2, Número: Plur
+me	yo	PRONOMBRE	Caso: Oblicuo, Persona: 1, Número: Sing
+te	tú	PRONOMBRE	Caso: Oblicuo, Persona: 2, Número: Sing
+se	se	PRONOMBRE	Caso: Reflexivo/Recíproco, Persona: 3, Número: Común
+nos	yo	PRONOMBRE	Caso: Oblicuo, Persona: 1, Número: Plur
+le	él	PRONOMBRE	Caso: Dativo, Persona: 3, Número: Sing
+les	él	PRONOMBRE	Caso: Dativo, Persona: 3, Número: Plur
+lo	él	PRONOMBRE	Caso: Acusativo, Persona: 3, Género: Masc/Neutro, Número: Sing
+la	él	PRONOMBRE	Caso: Acusativo, Persona: 3, Género: Fem, Número: Sing
+los	él	PRONOMBRE	Caso: Acusativo, Persona: 3, Género: Masc, Número: Plur
+las	él	PRONOMBRE	Caso: Acusativo, Persona: 3, Género: Fem, Número: Plur
+# -----------------------------------------------------------------------------
+# PREPOSICIONES
+a	a	PREPOSICION	Tipo: Simple
+ante	ante	PREPOSICION	Tipo: Simple
+bajo	bajo	PREPOSICION	Tipo: Simple
+con	con	PREPOSICION	Tipo: Simple
+contra	contra	PREPOSICION	Tipo: Simple
+de	de	PREPOSICION	Tipo: Simple
+desde	desde	PREPOSICION	Tipo: Simple
+durante	durante	PREPOSICION	Tipo: Simple
+en	en	PREPOSICION	Tipo: Simple
+entre	entre	PREPOSICION	Tipo: Simple
+hacia	hacia	PREPOSICION	Tipo: Simple
+hasta	hasta	PREPOSICION	Tipo: Simple
+mediante	mediante	PREPOSICION	Tipo: Simple
+para	para	PREPOSICION	Tipo: Simple
+por	por	PREPOSICION	Tipo: Simple
+según	según	PREPOSICION	Tipo: Simple
+sin	sin	PREPOSICION	Tipo: Simple
+sobre	sobre	PREPOSICION	Tipo: Simple
+tras	tras	PREPOSICION	Tipo: Simple
+# -----------------------------------------------------------------------------
+# CONJUNCIONES
+y	y	CONJUNCION	Tipo: Coordinante copulativa
+e	y	CONJUNCION	Tipo: Coordinante copulativa
+o	o	CONJUNCION	Tipo: Coordinante disyuntiva
+u	o	CONJUNCION	Tipo: Coordinante disyuntiva
+pero	pero	CONJUNCION	Tipo: Coordinante adversativa
+mas	mas	CONJUNCION	Tipo: Coordinante adversativa
+sino	sino	CONJUNCION	Tipo: Coordinante adversativa
+aunque	aunque	CONJUNCION	Tipo: Subordinante concesiva
+porque	porque	CONJUNCION	Tipo: Subordinante causal
+pues	pues	CONJUNCION	Tipo: Subordinante causal
+que	que	CONJUNCION	Tipo: Subordinante completiva
+ni	ni	CONJUNCION	Tipo: Coordinante copulativa
+# -----------------------------------------------------------------------------
+# SUSTANTIVOS
+perro	perro	SUSTANTIVO	Género: Masc, Número: Sing
+perra	perro	SUSTANTIVO	Género: Fem, Número: Sing
+perros	perro	SUSTANTIVO	Género: Masc, Número: Plur
+perras	perro	SUSTANTIVO	Género: Fem, Número: Plur
+gato	gato	SUSTANTIVO	Género: Masc, Número: Sing
+gata	gato	SUSTANTIVO	Género: Fem, Número: Sing
+gatos	gato	SUSTANTIVO	Género: Masc, Número: Plur
+gatas	gato	SUSTANTIVO	Género: Fem, Número: Plur
+niño	niño	SUSTANTIVO	Género: Masc, Número: Sing
+niña	niño	SUSTANTIVO	Género: Fem, Número: Sing
+niños	niño	SUSTANTIVO	Género: Masc, Número: Plur
+niñas	niño	SUSTANTIVO	Género: Fem, Número: Plur
+manzana	manzana	SUSTANTIVO	Género: Fem, Número: Sing
+manzanas	manzana	SUSTANTIVO	Género: Fem, Número: Plur
+estudiante	estudiante	SUSTANTIVO	Género: Común, Número: Sing
+estudiantes	estudiante	SUSTANTIVO	Género: Común, Número: Plur
+profesor	profesor	SUSTANTIVO	Género: Masc, Número: Sing
+profesora	profesor	SUSTANTIVO	Género: Fem, Número: Sing
+profesores	profesor	SUSTANTIVO	Género: Masc, Número: Plur
+profesoras	profesor	SUSTANTIVO	Género: Fem, Número: Plur
+universidad	universidad	SUSTANTIVO	Género: Fem, Número: Sing
+universidades	universidad	SUSTANTIVO	Género: Fem, Número: Plur
+informática	informática	SUSTANTIVO	Género: Fem, Número: Sing
+programación	programación	SUSTANTIVO	Género: Fem, Número: Sing
+algoritmo	algoritmo	SUSTANTIVO	Género: Masc, Número: Sing
+algoritmos	algoritmo	SUSTANTIVO	Género: Masc, Número: Plur
+autómata	autómata	SUSTANTIVO	Género: Masc, Número: Sing
+autómatas	autómata	SUSTANTIVO	Género: Masc, Número: Plur
+pila	pila	SUSTANTIVO	Género: Fem, Número: Sing
+pilas	pila	SUSTANTIVO	Género: Fem, Número: Plur
+lenguaje	lenguaje	SUSTANTIVO	Género: Masc, Número: Sing
+lenguajes	lenguaje	SUSTANTIVO	Género: Masc, Número: Plur
+gramática	gramática	SUSTANTIVO	Género: Fem, Número: Sing
+gramáticas	gramática	SUSTANTIVO	Género: Fem, Número: Plur
+código	código	SUSTANTIVO	Género: Masc, Número: Sing
+códigos	código	SUSTANTIVO	Género: Masc, Número: Plur
+libro	libro	SUSTANTIVO	Género: Masc, Número: Sing
+libros	libro	SUSTANTIVO	Género: Masc, Número: Plur
+computadora	computadora	SUSTANTIVO	Género: Fem, Número: Sing
+computadoras	computadora	SUSTANTIVO	Género: Fem, Número: Plur
+ordenador	ordenador	SUSTANTIVO	Género: Masc, Número: Sing
+ordenadores	ordenador	SUSTANTIVO	Género: Masc, Número: Plur
+lección	lección	SUSTANTIVO	Género: Fem, Número: Sing
+lecciones	lección	SUSTANTIVO	Género: Fem, Número: Plur
+clase	clase	SUSTANTIVO	Género: Fem, Número: Sing
+clases	clase	SUSTANTIVO	Género: Fem, Número: Plur
+aula	aula	SUSTANTIVO	Género: Fem, Número: Sing
+aulas	aula	SUSTANTIVO	Género: Fem, Número: Plur
+tarea	tarea	SUSTANTIVO	Género: Fem, Número: Sing
+tareas	tarea	SUSTANTIVO	Género: Fem, Número: Plur
+examen	examen	SUSTANTIVO	Género: Masc, Número: Sing
+exámenes	examen	SUSTANTIVO	Género: Masc, Número: Plur
+proyecto	proyecto	SUSTANTIVO	Género: Masc, Número: Sing
+proyectos	proyecto	SUSTANTIVO	Género: Masc, Número: Plur
+casa	casa	SUSTANTIVO	Género: Fem, Número: Sing
+casas	casa	SUSTANTIVO	Género: Fem, Número: Plur
+coche	coche	SUSTANTIVO	Género: Masc, Número: Sing
+coches	coche	SUSTANTIVO	Género: Masc, Número: Plur
+árbol	árbol	SUSTANTIVO	Género: Masc, Número: Sing
+árboles	árbol	SUSTANTIVO	Género: Masc, Número: Plur
+hombre	hombre	SUSTANTIVO	Género: Masc, Número: Sing
+hombres	hombre	SUSTANTIVO	Género: Masc, Número: Plur
+mujer	mujer	SUSTANTIVO	Género: Fem, Número: Sing
+mujeres	mujer	SUSTANTIVO	Género: Fem, Número: Plur
+persona	persona	SUSTANTIVO	Género: Fem, Número: Sing
+personas	persona	SUSTANTIVO	Género: Fem, Número: Plur
+amigo	amigo	SUSTANTIVO	Género: Masc, Número: Sing
+amiga	amigo	SUSTANTIVO	Género: Fem, Número: Sing
+amigos	amigo	SUSTANTIVO	Género: Masc, Número: Plur
+amigas	amigo	SUSTANTIVO	Género: Fem, Número: Plur
+carne	carne	SUSTANTIVO	Género: Fem, Número: Sing
+agua	agua	SUSTANTIVO	Género: Fem, Número: Sing
+pan	pan	SUSTANTIVO	Género: Masc, Número: Sing
+música	música	SUSTANTIVO	Género: Fem, Número: Sing
+carta	carta	SUSTANTIVO	Género: Fem, Número: Sing
+cartas	carta	SUSTANTIVO	Género: Fem, Número: Plur
+problema	problema	SUSTANTIVO	Género: Masc, Número: Sing
+problemas	problema	SUSTANTIVO	Género: Masc, Número: Plur
+solución	solución	SUSTANTIVO	Género: Fem, Número: Sing
+soluciones	solución	SUSTANTIVO	Género: Fem, Número: Plur
+teoría	teoría	SUSTANTIVO	Género: Fem, Número: Sing
+teorías	teoría	SUSTANTIVO	Género: Fem, Número: Plur
+sistema	sistema	SUSTANTIVO	Género: Masc, Número: Sing
+sistemas	sistema	SUSTANTIVO	Género: Masc, Número: Plur
+día	día	SUSTANTIVO	Género: Masc, Número: Sing
+días	día	SUSTANTIVO	Género: Masc, Número: Plur
+noche	noche	SUSTANTIVO	Género: Fem, Número: Sing
+noches	noche	SUSTANTIVO	Género: Fem, Número: Plur
+tarde	tarde	SUSTANTIVO	Género: Fem, Número: Sing
+tardes	tarde	SUSTANTIVO	Género: Fem, Número: Plur
+tiempo	tiempo	SUSTANTIVO	Género: Masc, Número: Sing
+año	año	SUSTANTIVO	Género: Masc, Número: Sing
+años	año	SUSTANTIVO	Género: Masc, Número: Plur
+ciudad	ciudad	SUSTANTIVO	Género: Fem, Número: Sing
+ciudades	ciudad	SUSTANTIVO	Género: Fem, Número: Plur
+país	país	SUSTANTIVO	Género: Masc, Número: Sing
+países	país	SUSTANTIVO	Género: Masc, Número: Plur
+escuela	escuela	SUSTANTIVO	Género: Fem, Número: Sing
+escuelas	escuela	SUSTANTIVO	Género: Fem, Número: Plur
+facultad	facultad	SUSTANTIVO	Género: Fem, Número: Sing
+facultades	facultad	SUSTANTIVO	Género: Fem, Número: Plur
+# -----------------------------------------------------------------------------
+# VERBOS
+# correr
+corre	correr	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+corro	correr	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+corres	correr	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 2, Número: Sing
+corremos	correr	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Plur
+corréis	correr	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 2, Número: Plur
+corren	correr	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Plur
+corrió	correr	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Sing
+corrí	correr	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 1, Número: Sing
+corrieron	correr	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Plur
+correrá	correr	VERBO	Modo: Indicativo, Tiempo: Futuro, Persona: 3, Número: Sing
+correrán	correr	VERBO	Modo: Indicativo, Tiempo: Futuro, Persona: 3, Número: Plur
+correr	correr	VERBO	Modo: Infinitivo
+corriendo	correr	VERBO	Modo: Gerundio
+corrido	correr	VERBO	Modo: Participio
+# comer
+come	comer	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+comen	comer	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Plur
+comes	comer	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 2, Número: Sing
+comemos	comer	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Plur
+comió	comer	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Sing
+comí	comer	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 1, Número: Sing
+comieron	comer	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Plur
+comerá	comer	VERBO	Modo: Indicativo, Tiempo: Futuro, Persona: 3, Número: Sing
+comerán	comer	VERBO	Modo: Indicativo, Tiempo: Futuro, Persona: 3, Número: Plur
+comer	comer	VERBO	Modo: Infinitivo
+comiendo	comer	VERBO	Modo: Gerundio
+comido	comer	VERBO	Modo: Participio
+# estudiar
+estudio	estudiar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+estudias	estudiar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 2, Número: Sing
+estudia	estudiar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+estudiamos	estudiar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Plur
+estudian	estudiar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Plur
+estudió	estudiar	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Sing
+estudié	estudiar	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 1, Número: Sing
+estudiaron	estudiar	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Plur
+estudiará	estudiar	VERBO	Modo: Indicativo, Tiempo: Futuro, Persona: 3, Número: Sing
+estudiarán	estudiar	VERBO	Modo: Indicativo, Tiempo: Futuro, Persona: 3, Número: Plur
+estudiar	estudiar	VERBO	Modo: Infinitivo
+estudiando	estudiar	VERBO	Modo: Gerundio
+estudiado	estudiar	VERBO	Modo: Participio
+# programar
+programo	programar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+programas	programar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 2, Número: Sing
+programa	programar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+programamos	programar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Plur
+programan	programar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Plur
+programó	programar	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Sing
+programé	programar	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 1, Número: Sing
+programaron	programar	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Plur
+programará	programar	VERBO	Modo: Indicativo, Tiempo: Futuro, Persona: 3, Número: Sing
+programarán	programar	VERBO	Modo: Indicativo, Tiempo: Futuro, Persona: 3, Número: Plur
+programar	programar	VERBO	Modo: Infinitivo
+programando	programar	VERBO	Modo: Gerundio
+programado	programar	VERBO	Modo: Participio
+# leer
+leo	leer	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+lees	leer	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 2, Número: Sing
+lee	leer	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+leemos	leer	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Plur
+leen	leer	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Plur
+leyó	leer	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Sing
+leí	leer	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 1, Número: Sing
+leyeron	leer	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Plur
+leerá	leer	VERBO	Modo: Indicativo, Tiempo: Futuro, Persona: 3, Número: Sing
+leer	leer	VERBO	Modo: Infinitivo
+leyendo	leer	VERBO	Modo: Gerundio
+leído	leer	VERBO	Modo: Participio
+# escribir
+escribo	escribir	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+escribes	escribir	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 2, Número: Sing
+escribe	escribir	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+escribimos	escribir	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Plur
+escriben	escribir	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Plur
+escribió	escribir	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Sing
+escribí	escribir	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 1, Número: Sing
+escribieron	escribir	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Plur
+escribirá	escribir	VERBO	Modo: Indicativo, Tiempo: Futuro, Persona: 3, Número: Sing
+escribir	escribir	VERBO	Modo: Infinitivo
+escribiendo	escribir	VERBO	Modo: Gerundio
+escrito	escribir	VERBO	Modo: Participio
+# explicar
+explico	explicar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+explicas	explicar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 2, Número: Sing
+explica	explicar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+explicamos	explicar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Plur
+explican	explicar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Plur
+explicó	explicar	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Sing
+explicaron	explicar	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Plur
+explicará	explicar	VERBO	Modo: Indicativo, Tiempo: Futuro, Persona: 3, Número: Sing
+explicar	explicar	VERBO	Modo: Infinitivo
+explicando	explicar	VERBO	Modo: Gerundio
+explicado	explicar	VERBO	Modo: Participio
+# analizar
+analizo	analizar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+analizas	analizar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 2, Número: Sing
+analiza	analizar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+analizamos	analizar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Plur
+analizan	analizar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Plur
+analizó	analizar	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Sing
+analizaron	analizar	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Plur
+analizará	analizar	VERBO	Modo: Indicativo, Tiempo: Futuro, Persona: 3, Número: Sing
+analizar	analizar	VERBO	Modo: Infinitivo
+analizando	analizar	VERBO	Modo: Gerundio
+analizado	analizar	VERBO	Modo: Participio
+# hablar
+hablo	hablar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+hablas	hablar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 2, Número: Sing
+habla	hablar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+hablamos	hablar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Plur
+hablan	hablar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Plur
+habló	hablar	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Sing
+hablaron	hablar	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Plur
+hablará	hablar	VERBO	Modo: Indicativo, Tiempo: Futuro, Persona: 3, Número: Sing
+hablar	hablar	VERBO	Modo: Infinitivo
+hablando	hablar	VERBO	Modo: Gerundio
+hablado	hablar	VERBO	Modo: Participio
+# entender
+entiendo	entender	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+entiendes	entender	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 2, Número: Sing
+entiende	entender	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+entendemos	entender	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Plur
+entienden	entender	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Plur
+entendió	entender	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Sing
+entender	entender	VERBO	Modo: Infinitivo
+# resolver
+resuelvo	resolver	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+resuelves	resolver	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 2, Número: Sing
+resuelve	resolver	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+resolvemos	resolver	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Plur
+resuelven	resolver	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Plur
+resolvió	resolver	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Sing
+resolver	resolver	VERBO	Modo: Infinitivo
+# ser y estar
+soy	ser	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+eres	ser	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 2, Número: Sing
+es	ser	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+somos	ser	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Plur
+son	ser	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Plur
+fue	ser	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Sing
+era	ser	VERBO	Modo: Indicativo, Tiempo: Pretérito imperfecto, Persona: 3, Número: Sing
+será	ser	VERBO	Modo: Indicativo, Tiempo: Futuro, Persona: 3, Número: Sing
+ser	ser	VERBO	Modo: Infinitivo
+sido	ser	VERBO	Modo: Participio
+estoy	estar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+estás	estar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 2, Número: Sing
+está	estar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+estamos	estar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Plur
+están	estar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Plur
+estuvo	estar	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Sing
+estaba	estar	VERBO	Modo: Indicativo, Tiempo: Pretérito imperfecto, Persona: 3, Número: Sing
+estar	estar	VERBO	Modo: Infinitivo
+# tener
+tengo	tener	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+tienes	tener	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 2, Número: Sing
+tiene	tener	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+tenemos	tener	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Plur
+tienen	tener	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Plur
+tuvo	tener	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Sing
+tenía	tener	VERBO	Modo: Indicativo, Tiempo: Pretérito imperfecto, Persona: 3, Número: Sing
+tendrá	tener	VERBO	Modo: Indicativo, Tiempo: Futuro, Persona: 3, Número: Sing
+tener	tener	VERBO	Modo: Infinitivo
+# vivir
+vivo	vivir	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+vives	vivir	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 2, Número: Sing
+vive	vivir	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+vivimos	vivir	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Plur
+viven	vivir	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Plur
+vivió	vivir	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Sing
+vivir	vivir	VERBO	Modo: Infinitivo
+# trabajar
+trabajo	trabajar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+trabajas	trabajar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 2, Número: Sing
+trabaja	trabajar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+trabajamos	trabajar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Plur
+trabajan	trabajar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Plur
+trabajó	trabajar	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Sing
+trabajar	trabajar	VERBO	Modo: Infinitivo
+# diseñar
+diseño	diseñar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+diseñas	diseñar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 2, Número: Sing
+diseña	diseñar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+diseñamos	diseñar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Plur
+diseñan	diseñar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Plur
+diseñó	diseñar	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Sing
+diseñar	diseñar	VERBO	Modo: Infinitivo
+# -----------------------------------------------------------------------------
+# ADJETIVOS
+rápido	rápido	ADJETIVO	Género: Masc, Número: Sing
+rápida	rápido	ADJETIVO	Género: Fem, Número: Sing
+rápidos	rápido	ADJETIVO	Género: Masc, Número: Plur
+rápidas	rápido	ADJETIVO	Género: Fem, Número: Plur
+lento	lento	ADJETIVO	Género: Masc, Número: Sing
+lenta	lento	ADJETIVO	Género: Fem, Número: Sing
+lentos	lento	ADJETIVO	Género: Masc, Número: Plur
+lentas	lento	ADJETIVO	Género: Fem, Número: Plur
+inteligente	inteligente	ADJETIVO	Género: Común, Número: Sing
+inteligentes	inteligente	ADJETIVO	Género: Común, Número: Plur
+nuevo	nuevo	ADJETIVO	Género: Masc, Número: Sing
+nueva	nuevo	ADJETIVO	Género: Fem, Número: Sing
+nuevos	nuevo	ADJETIVO	Género: Masc, Número: Plur
+nuevas	nuevo	ADJETIVO	Género: Fem, Número: Plur
+viejo	viejo	ADJETIVO	Género: Masc, Número: Sing
+vieja	viejo	ADJETIVO	Género: Fem, Número: Sing
+viejos	viejo	ADJETIVO	Género: Masc, Número: Plur
+viejas	viejo	ADJETIVO	Género: Fem, Número: Plur
+bueno	bueno	ADJETIVO	Género: Masc, Número: Sing
+buena	bueno	ADJETIVO	Género: Fem, Número: Sing
+buenos	bueno	ADJETIVO	Género: Masc, Número: Plur
+buenas	bueno	ADJETIVO	Género: Fem, Número: Plur
+buen	bueno	ADJETIVO	Género: Masc, Número: Sing, Tipo: Apócope
+malo	malo	ADJETIVO	Género: Masc, Número: Sing
+mala	malo	ADJETIVO	Género: Fem, Número: Sing
+malos	malo	ADJETIVO	Género: Masc, Número: Plur
+malas	malo	ADJETIVO	Género: Fem, Número: Plur
+mal	malo	ADJETIVO	Género: Masc, Número: Sing, Tipo: Apócope
+grande	grande	ADJETIVO	Género: Común, Número: Sing
+grandes	grande	ADJETIVO	Género: Común, Número: Plur
+gran	grande	ADJETIVO	Género: Común, Número: Sing, Tipo: Apócope
+pequeño	pequeño	ADJETIVO	Género: Masc, Número: Sing
+pequeña	pequeño	ADJETIVO	Género: Fem, Número: Sing
+pequeños	pequeño	ADJETIVO	Género: Masc, Número: Plur
+pequeñas	pequeño	ADJETIVO	Género: Fem, Número: Plur
+difícil	difícil	ADJETIVO	Género: Común, Número: Sing
+difíciles	difícil	ADJETIVO	Género: Común, Número: Plur
+fácil	fácil	ADJETIVO	Género: Común, Número: Sing
+fáciles	fácil	ADJETIVO	Género: Común, Número: Plur
+importante	importante	ADJETIVO	Género: Común, Número: Sing
+importantes	importante	ADJETIVO	Género: Común, Número: Plur
+formal	formal	ADJETIVO	Género: Común, Número: Sing
+formales	formal	ADJETIVO	Género: Común, Número: Plur
+complejo	complejo	ADJETIVO	Género: Masc, Número: Sing
+compleja	complejo	ADJETIVO	Género: Fem, Número: Sing
+complejos	complejo	ADJETIVO	Género: Masc, Número: Plur
+complejas	complejo	ADJETIVO	Género: Fem, Número: Plur
+computacional	computacional	ADJETIVO	Género: Común, Número: Sing
+computacionales	computacional	ADJETIVO	Género: Común, Número: Plur
+moderno	moderno	ADJETIVO	Género: Masc, Número: Sing
+moderna	moderno	ADJETIVO	Género: Fem, Número: Sing
+modernos	moderno	ADJETIVO	Género: Masc, Número: Plur
+modernas	moderno	ADJETIVO	Género: Fem, Número: Plur
+rojo	rojo	ADJETIVO	Género: Masc, Número: Sing
+roja	rojo	ADJETIVO	Género: Fem, Número: Sing
+rojos	rojo	ADJETIVO	Género: Masc, Número: Plur
+rojas	rojo	ADJETIVO	Género: Fem, Número: Plur
+azul	azul	ADJETIVO	Género: Común, Número: Sing
+azules	azul	ADJETIVO	Género: Común, Número: Plur
+verde	verde	ADJETIVO	Género: Común, Número: Sing
+verdes	verde	ADJETIVO	Género: Común, Número: Plur
+blanco	blanco	ADJETIVO	Género: Masc, Número: Sing
+blanca	blanco	ADJETIVO	Género: Fem, Número: Sing
+blancos	blanco	ADJETIVO	Género: Masc, Número: Plur
+blancas	blanco	ADJETIVO	Género: Fem, Número: Plur
+negro	negro	ADJETIVO	Género: Masc, Número: Sing
+negra	negro	ADJETIVO	Género: Fem, Número: Sing
+negros	negro	ADJETIVO	Género: Masc, Número: Plur
+negras	negro	ADJETIVO	Género: Fem, Número: Plur
+# -----------------------------------------------------------------------------
+# ADVERBIOS
+rápidamente	rápidamente	ADVERBIO	Tipo: Modo
+lentamente	lentamente	ADVERBIO	Tipo: Modo
+inteligentemente	inteligentemente	ADVERBIO	Tipo: Modo
+fácilmente	fácilmente	ADVERBIO	Tipo: Modo
+difícilmente	difícilmente	ADVERBIO	Tipo: Modo
+correctamente	correctamente	ADVERBIO	Tipo: Modo
+constantemente	constantemente	ADVERBIO	Tipo: Modo
+claramente	claramente	ADVERBIO	Tipo: Modo
+frecuentemente	frecuentemente	ADVERBIO	Tipo: Modo
+bien	bien	ADVERBIO	Tipo: Modo
+mal	mal	ADVERBIO	Tipo: Modo
+muy	muy	ADVERBIO	Tipo: Cantidad
+mucho	mucho	ADVERBIO	Tipo: Cantidad
+poco	poco	ADVERBIO	Tipo: Cantidad
+bastante	bastante	ADVERBIO	Tipo: Cantidad
+casi	casi	ADVERBIO	Tipo: Cantidad
+siempre	siempre	ADVERBIO	Tipo: Tiempo
+nunca	nunca	ADVERBIO	Tipo: Tiempo
+jamás	jamás	ADVERBIO	Tipo: Tiempo
+hoy	hoy	ADVERBIO	Tipo: Tiempo
+ayer	ayer	ADVERBIO	Tipo: Tiempo
+mañana	mañana	ADVERBIO	Tipo: Tiempo
+ahora	ahora	ADVERBIO	Tipo: Tiempo
+después	después	ADVERBIO	Tipo: Tiempo
+antes	antes	ADVERBIO	Tipo: Tiempo
+aquí	aquí	ADVERBIO	Tipo: Lugar
+allí	allí	ADVERBIO	Tipo: Lugar
+allá	allá	ADVERBIO	Tipo: Lugar
+cerca	cerca	ADVERBIO	Tipo: Lugar
+lejos	lejos	ADVERBIO	Tipo: Lugar
+dentro	dentro	ADVERBIO	Tipo: Lugar
+fuera	fuera	ADVERBIO	Tipo: Lugar
+sí	sí	ADVERBIO	Tipo: Afirmación
+no	no	ADVERBIO	Tipo: Negación
+también	también	ADVERBIO	Tipo: Afirmación
+tampoco	tampoco	ADVERBIO	Tipo: Negación
+quizás	quizás	ADVERBIO	Tipo: Duda
+tal	tal	ADVERBIO	Tipo: Modo
+# -----------------------------------------------------------------------------
+# NÚMEROS
+uno	uno	NUMERO	Tipo: Cardinal, Valor: 1
+dos	dos	NUMERO	Tipo: Cardinal, Valor: 2
+tres	tres	NUMERO	Tipo: Cardinal, Valor: 3
+cuatro	cuatro	NUMERO	Tipo: Cardinal, Valor: 4
+cinco	cinco	NUMERO	Tipo: Cardinal, Valor: 5
+seis	seis	NUMERO	Tipo: Cardinal, Valor: 6
+siete	siete	NUMERO	Tipo: Cardinal, Valor: 7
+ocho	ocho	NUMERO	Tipo: Cardinal, Valor: 8
+nueve	nueve	NUMERO	Tipo: Cardinal, Valor: 9
+diez	diez	NUMERO	Tipo: Cardinal, Valor: 10
+cien	cien	NUMERO	Tipo: Cardinal, Valor: 100
+mil	mil	NUMERO	Tipo: Cardinal, Valor: 1000
+primer	primero	NUMERO	Tipo: Ordinal, Valor: 1, Apócope
+primero	primero	NUMERO	Tipo: Ordinal, Valor: 1
+primera	primero	NUMERO	Tipo: Ordinal, Valor: 1
+segundo	segundo	NUMERO	Tipo: Ordinal, Valor: 2
+segunda	segundo	NUMERO	Tipo: Ordinal, Valor: 2
+tercer	tercero	NUMERO	Tipo: Ordinal, Valor: 3, Apócope
+tercero	tercero	NUMERO	Tipo: Ordinal, Valor: 3
+tercera	tercero	NUMERO	Tipo: Ordinal, Valor: 3
+# -----------------------------------------------------------------------------
+# INTERJECCIONES
+hola	hola	INTERJECCION	Tipo: Saludo
+adiós	adiós	INTERJECCION	Tipo: Despedida
+ay	ay	INTERJECCION	Tipo: Dolor o sorpresa
+oh	oh	INTERJECCION	Tipo: Asombro
+bravo	bravo	INTERJECCION	Tipo: Aprobación
+ojalá	ojalá	INTERJECCION	Tipo: Deseo
+# -----------------------------------------------------------------------------
+# PALABRAS AMBIGUAS (múltiples registros intencionados con rasgos reales)
+canto	canto	SUSTANTIVO	Género: Masc, Número: Sing, Sentido: Acción de cantar o borde
+canto	cantar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+como	comer	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+como	como	CONJUNCION	Tipo: Comparativa / Modo
+vino	vino	SUSTANTIVO	Género: Masc, Número: Sing, Sentido: Bebida
+vino	venir	VERBO	Modo: Indicativo, Tiempo: Pretérito indefinido, Persona: 3, Número: Sing
+para	para	PREPOSICION	Tipo: Finalidad o destino
+para	parar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+bajo	bajo	ADJETIVO	Género: Masc, Número: Sing
+bajo	bajo	PREPOSICION	Tipo: Situación inferior
+bajo	bajar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+sobre	sobre	SUSTANTIVO	Género: Masc, Número: Sing, Sentido: Envoltorio postal
+sobre	sobre	PREPOSICION	Tipo: Encima de o acerca de
+trabajo	trabajo	SUSTANTIVO	Género: Masc, Número: Sing, Sentido: Ocupación o esfuerzo
+trabajo	trabajar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+programa	programa	SUSTANTIVO	Género: Masc, Número: Sing, Sentido: Software o plan
+programa	programar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+estudio	estudio	SUSTANTIVO	Género: Masc, Número: Sing, Sentido: Sala o investigación
+estudio	estudiar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+diseño	diseño	SUSTANTIVO	Género: Masc, Número: Sing, Sentido: Boceto o esquema
+diseño	diseñar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+cura	cura	SUSTANTIVO	Género: Masc/Fem, Número: Sing, Sentido: Sacerdote o sanación
+cura	curar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+pesca	pesca	SUSTANTIVO	Género: Fem, Número: Sing, Sentido: Acción u oficio
+pesca	pescar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+tarde	tarde	SUSTANTIVO	Género: Fem, Número: Sing, Sentido: Periodo del día
+tarde	tarde	ADVERBIO	Tipo: Tiempo, Sentido: Con retraso
+
+# -----------------------------------------------------------------------------
+# VOCABULARIO ADICIONAL Y EXTENDIDO PARA ORACIONES DE CORPUS Y PRUEBAS
+rápido	rápido	ADVERBIO	Tipo: Modo (adverbio adjetival)
+interesante	interesante	ADJETIVO	Género: Común, Número: Sing
+interesantes	interesante	ADJETIVO	Género: Común, Número: Plur
+inteligente	inteligente	ADJETIVO	Género: Común, Número: Sing
+inteligentes	inteligente	ADJETIVO	Género: Común, Número: Plur
+dulce	dulce	ADJETIVO	Género: Común, Número: Sing
+dulces	dulce	ADJETIVO	Género: Común, Número: Plur
+duerme	dormir	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+duermen	dormir	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Plur
+duermo	dormir	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+dormir	dormir	VERBO	Modo: Infinitivo
+bebe	beber	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+beben	beber	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Plur
+bebo	beber	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+beber	beber	VERBO	Modo: Infinitivo
+juegan	jugar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Plur
+juega	jugar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+juego	jugar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 1, Número: Sing
+jugar	jugar	VERBO	Modo: Infinitivo
+canta	cantar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+cantan	cantar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Plur
+cantar	cantar	VERBO	Modo: Infinitivo
+llega	llegar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+llegan	llegar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Plur
+llegar	llegar	VERBO	Modo: Infinitivo
+procesa	procesar	VERBO	Modo: Indicativo, Tiempo: Presente, Persona: 3, Número: Sing
+procesar	procesar	VERBO	Modo: Infinitivo
+maría	maría	SUSTANTIVO	Género: Fem, Número: Sing, Tipo: Propio
+pedro	pedro	SUSTANTIVO	Género: Masc, Número: Sing, Tipo: Propio
+juan	juan	SUSTANTIVO	Género: Masc, Número: Sing, Tipo: Propio
+agua	agua	SUSTANTIVO	Género: Fem, Número: Sing
+manzana	manzana	SUSTANTIVO	Género: Fem, Número: Sing
+manzanas	manzana	SUSTANTIVO	Género: Fem, Número: Plur
+amigo	amigo	SUSTANTIVO	Género: Masc, Número: Sing
+amigos	amigo	SUSTANTIVO	Género: Masc, Número: Plur
+amiga	amigo	SUSTANTIVO	Género: Fem, Número: Sing
+amigas	amigo	SUSTANTIVO	Género: Fem, Número: Plur
+canción	canción	SUSTANTIVO	Género: Fem, Número: Sing
+cancion	canción	SUSTANTIVO	Género: Fem, Número: Sing
+canciones	canción	SUSTANTIVO	Género: Fem, Número: Plur
+parque	parque	SUSTANTIVO	Género: Masc, Número: Sing
+parques	parque	SUSTANTIVO	Género: Masc, Número: Plur
+tren	tren	SUSTANTIVO	Género: Masc, Número: Sing
+trenes	tren	SUSTANTIVO	Género: Masc, Número: Plur
+estación	estación	SUSTANTIVO	Género: Fem, Número: Sing
+estacion	estación	SUSTANTIVO	Género: Fem, Número: Sing
+computadora	computadora	SUSTANTIVO	Género: Fem, Número: Sing
+dato	dato	SUSTANTIVO	Género: Masc, Número: Sing
+datos	dato	SUSTANTIVO	Género: Masc, Número: Plur
+libro	libro	SUSTANTIVO	Género: Masc, Número: Sing
+libros	libro	SUSTANTIVO	Género: Masc, Número: Plur
+casa	casa	SUSTANTIVO	Género: Fem, Número: Sing
+casas	casa	SUSTANTIVO	Género: Fem, Número: Plur
+niño	niño	SUSTANTIVO	Género: Masc, Número: Sing
+niños	niño	SUSTANTIVO	Género: Masc, Número: Plur
+niña	niño	SUSTANTIVO	Género: Fem, Número: Sing
+niñas	niño	SUSTANTIVO	Género: Fem, Número: Plur
+puntualmente	puntual	ADVERBIO	Tipo: Modo (-mente)
+eficazmente	eficaz	ADVERBIO	Tipo: Modo (-mente)
+veloz	veloz	ADJETIVO	Género: Común, Número: Sing
+veloces	veloz	ADJETIVO	Género: Común, Número: Plur
